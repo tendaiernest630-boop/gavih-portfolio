@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tendai Ernest — Systems Builder &amp; Creative Technologist</title>
+  <meta name="description" content="Tendai Ernest builds intelligent systems — real-time communication platforms, AI vision systems, IoT networks, and full-stack applications. Based in South Africa." />
+  <meta name="author" content="Tendai Ernest" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tendai Ernest — Systems Builder" />
+  <meta property="og:description" content="Software engineer and systems builder focusing on real-time platforms, AI vision, and full-stack apps." />
+  <meta property="og:image" content="og-preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+  <div class="cursor" id="cursor" aria-hidden="true">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#hero" class="nav-wordmark" aria-label="Tendai Ernest home">
+        <span class="wm-te">TE</span>
+      </a>
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#capabilities" class="nav-link">Stack</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-hire-btn">
+        Let's build
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+          <path d="M2 12L12 2M12 2H5M12 2V9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </a>
+      <button class="nav-burger" id="navBurger" aria-label="Open navigation" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span>
+      </button>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation" hidden>
+      <button class="mob-close" id="mobClose" aria-label="Close menu">&times;</button>
+      <nav>
+        <a href="#work" class="mob-link" data-close>Work</a>
+        <a href="#about" class="mob-link" data-close>About</a>
+        <a href="#capabilities" class="mob-link" data-close>Stack</a>
+        <a href="#contact" class="mob-link" data-close>Contact</a>
+      </nav>
+      <div class="mob-quick-links">
+        <a href="https://wa.me/263717045624" target="_blank" rel="noopener" class="mob-quick" data-close>WhatsApp</a>
+        <a href="mailto:info@gavih.systems" class="mob-quick" data-close>Email</a>
+        <a href="https://github.com/gavih" target="_blank" rel="noopener" class="mob-quick" data-close>GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-ambient" aria-hidden="true">
+        <div class="amb-shape amb-1"></div>
+        <div class="amb-shape amb-2"></div>
+        <div class="amb-grid"></div>
+      </div>
+      <div class="hero-floats" aria-hidden="true">
+        <span class="float-tag f1">WebSocket</span>
+        <span class="float-tag f2">YOLOv8</span>
+        <span class="float-tag f3">Arduino</span>
+        <span class="float-tag f4">FastAPI</span>
+        <span class="float-tag f5">WebRTC</span>
+      </div>
+      <div class="hero-body">
+        <p class="hero-eyebrow">
+          <span class="eyebrow-dot" aria-hidden="true"></span>
+          Available for projects
+        </p>
+        <h1 class="hero-name" id="hero-heading">
+          <span class="name-word">Tendai</span>
+          <span class="name-word">Ernest</span>
+        </h1>
+        <p class="hero-descriptor">
+          I build systems that
+          <span class="descriptor-cycle" id="descriptorCycle" aria-live="polite">work.</span>
+        </p>
+        <p class="hero-sub">
+          Software engineer and founder of GAVIH Integrated Systems. I build real technology systems across software, hardware, networking, AI, and embedded systems.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="cta-primary">
+            Explore the work
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+              <path d="M9 3v12M9 15l-4-4M9 15l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </a>
+          <a href="#contact" class="cta-secondary">Let's work together</a>
+        </div>
+      </div>
+      <div class="scroll-nudge" aria-hidden="true">
+        <div class="scroll-line-anim"></div>
+      </div>
+    </section>
+
+    <div class="marquee-band" aria-hidden="true">
+      <div class="marquee-inner">
+        <div class="marquee-track">
+          <span>Real-Time Communication</span><span class="msep">&#9670;</span>
+          <span>Computer Vision</span><span class="msep">&#9670;</span>
+          <span>IoT &amp; Embedded Systems</span><span class="msep">&#9670;</span>
+          <span>Network Engineering</span><span class="msep">&#9670;</span>
+          <span>Full-Stack Development</span><span class="msep">&#9670;</span>
+          <span>Game Development</span><span class="msep">&#9670;</span>
+          <span>AI &amp; Deep Learning</span><span class="msep">&#9670;</span>
+          <span>Real-Time Communication</span><span class="msep">&#9670;</span>
+          <span>Computer Vision</span><span class="msep">&#9670;</span>
+          <span>IoT &amp; Embedded Systems</span><span class="msep">&#9670;</span>
+          <span>Network Engineering</span><span class="msep">&#9670;</span>
+          <span>Full-Stack Development</span><span class="msep">&#9670;</span>
+          <span>Game Development</span><span class="msep">&#9670;</span>
+          <span>AI &amp; Deep Learning</span><span class="msep">&#9670;</span>
+        </div>
+      </div>
+    </div>
+
+    <section class="section work-section" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">Selected Work</span>
+          <h2 class="section-title" id="work-heading">Things I've built</h2>
+        </header>
+
+        <article class="featured-project reveal-up" id="project-airlink" aria-label="AirLink TEG Platform">
+          <div class="fp-header">
+            <span class="fp-num">01</span>
+            <span class="fp-badge">Flagship Project</span>
+          </div>
+          <div class="fp-layout">
+            <div class="fp-info">
+              <div class="fp-meta">
+                <span class="fp-category">Real-Time Communication</span>
+                <span aria-hidden="true"> &middot; </span>
+                <span class="fp-role">Sole Developer</span>
+              </div>
+              <h3 class="fp-title">AirLink &mdash; <span class="fp-accent">TEG Platform</span></h3>
+              <p class="fp-desc">
+                A robust communication platform for both local WLAN and the open internet.
+                Not a chat app &mdash; a full system: WebSocket messaging across 7+ channels, WebRTC peer
+                video calling, in-chat voice recording, chunked resumable file transfers, QR-code device
+                pairing, a wireless sensor network manager, and a zero-config UDP peer discovery engine.
+              </p>
+              <ul class="fp-list" role="list">
+                <li>Sub-millisecond LAN latency over WebSocket</li>
+                <li>WebRTC video + voice notes via Web Audio API</li>
+                <li>Resumable chunked file uploads with progress tracking</li>
+                <li>QR code instant device pairing</li>
+                <li>UDP broadcast peer discovery &mdash; zero config</li>
+                <li>WSN sensor telemetry dashboard</li>
+                <li>Cross-network relay tunnelling</li>
+              </ul>
+              <div class="chip-row">
+                <span class="chip">Python</span>
+                <span class="chip">FastAPI</span>
+                <span class="chip">WebSocket</span>
+                <span class="chip">WebRTC</span>
+                <span class="chip">SQLite</span>
+                <span class="chip">UDP Beacon</span>
+                <span class="chip">QR Code</span>
+                <span class="chip">HTML/CSS/JS</span>
+              </div>
+              <a href="#contact" class="fp-cta">Ask about this project &rarr;</a>
+            </div>
+            <div class="fp-visual" aria-hidden="true">
+              <div class="teg-mockup">
+                <div class="teg-bar">
+                  <span class="teg-dot d-r"></span>
+                  <span class="teg-dot d-y"></span>
+                  <span class="teg-dot d-g"></span>
+                  <span class="teg-url">localhost:8000 &mdash; AirLink TEG</span>
+                </div>
+                <div class="teg-body">
+                  <aside class="teg-sidebar">
+                    <div class="teg-sh">Channels</div>
+                    <div class="teg-ch active"># general</div>
+                    <div class="teg-ch"># engineering</div>
+                    <div class="teg-ch"># wsn_lab</div>
+                    <div class="teg-ch"># media</div>
+                    <div class="teg-ch"># diagnostics</div>
+                    <div class="teg-sh" style="margin-top:12px">Online &mdash; 3</div>
+                    <div class="teg-user"><span class="teg-online"></span> Tendai</div>
+                    <div class="teg-user"><span class="teg-online"></span> Device-07</div>
+                  </aside>
+                  <div class="teg-chat">
+                    <div class="teg-msg">
+                      <div class="teg-av" style="background:#c8a96e">T</div>
+                      <div><div class="teg-name">TEG System</div><div class="teg-txt">Welcome to AirLink TEG. All nodes connected.</div></div>
+                    </div>
+                    <div class="teg-msg">
+                      <div class="teg-av" style="background:#10b981">A</div>
+                      <div><div class="teg-name">Admin</div><div class="teg-txt">WSN nodes reporting in &#x2713; Temp: 23.4&deg;C</div></div>
+                    </div>
+                    <div class="teg-msg">
+                      <div class="teg-av" style="background:#6366f1">D</div>
+                      <div><div class="teg-name">Device-07</div><div class="teg-txt">Humidity: 61% | RSSI: -42 dBm</div></div>
+                    </div>
+                    <div class="teg-typing"><span></span><span></span><span></span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects-grid">
+
+          <article class="proj-card reveal-up" id="project-vision" tabindex="0">
+            <div class="proj-num" aria-hidden="true">02</div>
+            <div class="proj-cats"><span class="pcat">AI</span><span class="pcat">Computer Vision</span></div>
+            <h3 class="proj-name">Real-Time Object Detection</h3>
+            <p class="proj-desc">Live webcam feed processed through YOLOv8 nano &mdash; annotating detected objects with bounding boxes and confidence labels at high frame rates. Memory-efficient pipeline built from scratch.</p>
+            <ul class="proj-list" role="list">
+              <li>YOLOv8 deep learning inference</li>
+              <li>Live webcam stream processing</li>
+              <li>Annotated bounding boxes &amp; labels</li>
+              <li>Memory-efficient pipeline</li>
+            </ul>
+            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">YOLOv8</span><span class="chip chip-sm">OpenCV</span></div>
+            <div class="proj-accent" style="--ac:#f43f5e" aria-hidden="true"></div>
+          </article>
+
+          <article class="proj-card reveal-up" id="project-wsn" tabindex="0">
+            <div class="proj-num" aria-hidden="true">03</div>
+            <div class="proj-cats"><span class="pcat">IoT</span><span class="pcat">Embedded</span></div>
+            <h3 class="proj-name">Wireless Sensor Network Manager</h3>
+            <p class="proj-desc">Full IoT management platform &mdash; device registration, real-time telemetry, RX/TX bandwidth metering, and hardware adapter diagnostics. Integrates with physical Arduino hardware over serial.</p>
+            <ul class="proj-list" role="list">
+              <li>Device lifecycle management</li>
+              <li>Real-time throughput telemetry</li>
+              <li>Hardware adapter enumeration</li>
+              <li>Arduino serial bridge integration</li>
+            </ul>
+            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">Arduino</span><span class="chip chip-sm">IoT</span></div>
+            <div class="proj-accent" style="--ac:#10b981" aria-hidden="true"></div>
+          </article>
+
+          <article class="proj-card reveal-up" id="project-discovery" tabindex="0">
+            <div class="proj-num" aria-hidden="true">04</div>
+            <div class="proj-cats"><span class="pcat">Networking</span><span class="pcat">Protocol Design</span></div>
+            <h3 class="proj-name">Zero-Config Peer Discovery</h3>
+            <p class="proj-desc">UDP broadcast beacon system for automatic peer detection on local networks. No manual IP configuration &mdash; devices announce themselves and register in real time. Port 50555, cross-platform.</p>
+            <ul class="proj-list" role="list">
+              <li>UDP broadcast beaconing</li>
+              <li>Automatic peer registration</li>
+              <li>Zero-config plug-and-play</li>
+              <li>Cross-platform Python</li>
+            </ul>
+            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">UDP</span><span class="chip chip-sm">Networking</span></div>
+            <div class="proj-accent" style="--ac:#8b5cf6" aria-hidden="true"></div>
+          </article>
+
+          <article class="proj-card reveal-up" id="project-arduino" tabindex="0">
+            <div class="proj-num" aria-hidden="true">05</div>
+            <div class="proj-cats"><span class="pcat">Embedded</span><span class="pcat">Hardware</span></div>
+            <h3 class="proj-name">Arduino Embedded Systems</h3>
+            <p class="proj-desc">Custom microcontroller firmware for sensor acquisition, actuator control, and serial bridges to cloud systems. The hardware layer underneath the full GAVIH network stack.</p>
+            <ul class="proj-list" role="list">
+              <li>Firmware in C/C++</li>
+              <li>Sensor data acquisition</li>
+              <li>Serial-to-WebSocket bridging</li>
+              <li>Hardware-software integration</li>
+            </ul>
+            <div class="chip-row"><span class="chip chip-sm">Arduino</span><span class="chip chip-sm">C/C++</span><span class="chip chip-sm">Serial</span></div>
+            <div class="proj-accent" style="--ac:#f59e0b" aria-hidden="true"></div>
+          </article>
+
+          <article class="proj-card reveal-up" id="project-games" tabindex="0">
+            <div class="proj-num" aria-hidden="true">06</div>
+            <div class="proj-cats"><span class="pcat">Web</span><span class="pcat">Game Dev</span></div>
+            <h3 class="proj-name">Interactive Gaming Experiences</h3>
+            <p class="proj-desc">Browser-based games on HTML5 Canvas &mdash; physics engines, collision systems, sprite animation, and real-time input handling. No frameworks. Engineering that's fun to use.</p>
+            <ul class="proj-list" role="list">
+              <li>Custom Canvas render loops</li>
+              <li>Physics simulation from scratch</li>
+              <li>Keyboard &amp; touch input</li>
+              <li>Cross-platform browser play</li>
+            </ul>
+            <div class="chip-row"><span class="chip chip-sm">JavaScript</span><span class="chip chip-sm">Canvas API</span><span class="chip chip-sm">HTML/CSS</span></div>
+            <div class="proj-accent" style="--ac:#ec4899" aria-hidden="true"></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-left reveal-up">
+            <span class="section-tag">About</span>
+            <h2 class="section-title" id="about-heading">
+              I'm a systems builder<br/>who builds for<br/>the real world.
+            </h2>
+          </div>
+          <div class="about-right reveal-up" style="--delay:0.1s">
+            <div class="about-text">
+              <p>I’m Tendai Ernest — a systems builder creating technology that works in the real world.</p>
+              <p>I’m the founder of GAVIH Integrated Systems, where I design, build, and ship real engineering projects — from connected devices and embedded systems to intelligent software and interactive applications.</p>
+              <p>My work spans the full stack: low-level C firmware running on hardware, Python and FastAPI backends, real-time communication with WebRTC and WebSockets, computer vision, IoT, networking, and the interfaces people actually use.</p>
+              <p>What drives me is not technology for its own sake. It’s the moment an idea becomes a working system — when devices connect, software responds, data moves, and something that once existed only as an idea becomes real.</p>
+              <p>I’m continuously deepening my expertise in AI integration, distributed systems, and developer-focused tools, while building practical technology that solves meaningful problems.</p>
+              <p>I build systems from the hardware up — and I’m always looking for the next problem worth solving.</p>
+            </div>
+            <div class="about-markers">
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#9889;</span><div><strong>Purpose-driven builds</strong><p>Every project started because a real problem existed.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128279;</span><div><strong>Full-stack depth</strong><p>Hardware to cloud &mdash; I understand every layer.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128269;</span><div><strong>First-principles approach</strong><p>I understand the problem before writing a line.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128296;</span><div><strong>Always learning</strong><p>Exploring AI agents and distributed systems.</p></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section capabilities-section" id="capabilities" aria-labelledby="cap-heading">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">Tech Stack</span>
+          <h2 class="section-title" id="cap-heading">What I work with</h2>
+        </header>
+        <div class="cap-grid">
+          <div class="cap-cluster reveal-up"><div class="cap-head"><span class="cap-verb">BUILD</span><span class="cap-desc">Full-stack apps &amp; systems</span></div><div class="cap-tags"><span class="ctag">Python</span><span class="ctag">FastAPI</span><span class="ctag">JavaScript</span><span class="ctag">React</span><span class="ctag">HTML</span><span class="ctag">CSS</span><span class="ctag">SQLite</span></div></div>
+          <div class="cap-cluster reveal-up" style="--delay:0.1s"><div class="cap-head"><span class="cap-verb">CONNECT</span><span class="cap-desc">Networks, protocols &amp; real-time</span></div><div class="cap-tags"><span class="ctag">WebSocket</span><span class="ctag">WebRTC</span><span class="ctag">UDP Broadcast</span><span class="ctag">Serial / UART</span><span class="ctag">REST APIs</span></div></div>
+          <div class="cap-cluster reveal-up" style="--delay:0.2s"><div class="cap-head"><span class="cap-verb">SENSE</span><span class="cap-desc">Computer vision &amp; AI</span></div><div class="cap-tags"><span class="ctag">YOLOv8</span><span class="ctag">OpenCV</span><span class="ctag">Deep Learning</span><span class="ctag">Image Processing</span></div></div>
+          <div class="cap-cluster reveal-up" style="--delay:0.3s"><div class="cap-head"><span class="cap-verb">EMBED</span><span class="cap-desc">Hardware firmware &amp; IoT</span></div><div class="cap-tags"><span class="ctag">Arduino</span><span class="ctag">C / C++</span><span class="ctag">IoT Sensors</span><span class="ctag">Embedded Firmware</span></div></div>
+          <div class="cap-cluster reveal-up" style="--delay:0.4s"><div class="cap-head"><span class="cap-verb">SHIP</span><span class="cap-desc">Version control &amp; deployment</span></div><div class="cap-tags"><span class="ctag">Git</span><span class="ctag">GitHub</span><span class="ctag">GitHub Pages</span><span class="ctag">Linux</span></div></div>
+          <div class="cap-cluster reveal-up" style="--delay:0.5s"><div class="cap-head"><span class="cap-verb">DESIGN</span><span class="cap-desc">UI, interaction &amp; game dev</span></div><div class="cap-tags"><span class="ctag">Canvas API</span><span class="ctag">CSS Animation</span><span class="ctag">UI/UX</span><span class="ctag">Game Physics</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services" aria-labelledby="srv-heading">
+      <div class="container">
+        <header class="section-head">
+          <span class="section-tag">Services</span>
+          <h2 class="section-title" id="srv-heading">What I can build for you</h2>
+        </header>
+        <div class="srv-grid">
+          <div class="srv-item reveal-up"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M8 9l4-4 4 4m0 6l-4 4-4-4"/><path d="M3 12h18"/></svg></div><h3>Real-Time Systems</h3><p>WebSocket platforms, chat apps, live dashboards. Built to handle concurrent connections at scale.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.1s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></div><h3>AI &amp; Computer Vision</h3><p>Object detection, image classification, live video analysis. I build the full pipeline &mdash; not just the model.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.2s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3>IoT &amp; Embedded</h3><p>Arduino firmware, sensor networks, telemetry dashboards. Hardware that connects to the world.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.3s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Full-Stack Web Apps</h3><p>FastAPI backends, JS frontends, responsive UI. From API architecture to the pixel the user sees.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.4s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div><h3>Network Engineering</h3><p>Peer discovery, UDP beaconing, relay systems, cross-network tunnelling. I build the plumbing.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.5s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div><h3>Interactive Experiences</h3><p>Browser games, data visualisations, animated interfaces. Engineering that's fun to use.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-left reveal-up">
+            <span class="section-tag">Contact</span>
+            <h2 class="contact-headline" id="contact-heading">Let's build<br/>something real.</h2>
+            <p class="contact-sub">Got a project, a problem you want solved, or just want to talk tech? I'm open to freelance work, collaborations, and interesting conversations.</p>
+            <div class="channels">
+              <a href="https://wa.me/263717045624" target="_blank" rel="noopener noreferrer" class="channel channel-wa" aria-label="Message on WhatsApp">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                <div class="channel-text"><span class="chn">WhatsApp</span><span class="chv">+263 71 704 5624</span></div>
+              </a>
+              <a href="mailto:info@gavih.systems" class="channel channel-email" aria-label="Send email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" aria-hidden="true"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                <div class="channel-text"><span class="chn">Email</span><span class="chv">info@gavih.systems</span></div>
+              </a>
+              <a href="https://github.com/gavih" target="_blank" rel="noopener noreferrer" class="channel channel-github" aria-label="View GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+                <div class="channel-text"><span class="chn">GitHub</span><span class="chv">github.com/gavih</span></div>
+              </a>
+              <a href="tel:+263717045624" class="channel channel-phone" aria-label="Call">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="20" height="20" aria-hidden="true"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+                <div class="channel-text"><span class="chn">Call</span><span class="chv">+263 71 704 5624</span></div>
+              </a>
+            </div>
+          </div>
+          <div class="contact-right reveal-up" style="--delay:0.15s">
+            <form class="contact-form" id="contactForm" novalidate aria-label="Contact form">
+              <div class="form-field"><label for="cf-name">Your name</label><input type="text" id="cf-name" name="name" placeholder="Name" autocomplete="name" required /></div>
+              <div class="form-field"><label for="cf-email">Email address</label><input type="email" id="cf-email" name="email" placeholder="you@example.com" autocomplete="email" required /></div>
+              <div class="form-field"><label for="cf-subject">What's this about?</label><input type="text" id="cf-subject" name="subject" placeholder="Project, collaboration, question..." required /></div>
+              <div class="form-field"><label for="cf-message">Message</label><textarea id="cf-message" name="message" rows="5" placeholder="Tell me about the project, timeline, what you need..." required></textarea></div>
+              <button type="submit" class="form-submit" id="formSubmit">
+                <span class="submit-text">Send message</span>
+                <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand"><p class="footer-name">Tendai Ernest</p><p class="footer-sub">GAVIH Integrated Systems</p></div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#work">Work</a><a href="#about">About</a><a href="#capabilities">Stack</a><a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-socials">
+          <a href="https://wa.me/263717045624" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+          <a href="mailto:info@gavih.systems" aria-label="Email">&#9993;</a>
+          <a href="https://github.com/gavih" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Tendai Ernest &middot; GAVIH Integrated Systems</p>
+        <p class="footer-egg" id="easterEgg" title="You noticed. That's the idea." tabindex="0">Built from scratch.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
