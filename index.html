@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tendai Ernest — Systems Builder &amp; Creative Technologist</title>
-  <meta name="description" content="Tendai Ernest builds intelligent systems — real-time communication platforms, AI vision systems, IoT networks, and full-stack applications. Based in South Africa." />
+  <title>Tendai Ernest — Systems Builder &amp; Engineer</title>
+  <meta name="description" content="Tendai Ernest designs and builds real systems — communication platforms, automated signal engines, AI vision pipelines, IoT networks, and full-stack applications. Based in Zimbabwe." />
   <meta name="author" content="Tendai Ernest" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Tendai Ernest — Systems Builder" />
-  <meta property="og:description" content="Software engineer and systems builder focusing on real-time platforms, AI vision, and full-stack apps." />
+  <meta property="og:description" content="I build systems from the hardware up — embedded firmware, real-time backends, computer vision, IoT, and the software that ties it all together." />
   <meta property="og:image" content="og-preview.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -89,7 +89,7 @@
           <span class="descriptor-cycle" id="descriptorCycle" aria-live="polite">work.</span>
         </p>
         <p class="hero-sub">
-          Software engineer and founder of GAVIH Integrated Systems. I build real technology systems across software, hardware, networking, AI, and embedded systems.
+          I design and build complete technology systems &mdash; from the hardware that senses the world, to the software that makes sense of it. If a problem is hard enough to be interesting, I want to solve it.
         </p>
         <div class="hero-cta">
           <a href="#work" class="cta-primary">
@@ -98,7 +98,7 @@
               <path d="M9 3v12M9 15l-4-4M9 15l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
             </svg>
           </a>
-          <a href="#contact" class="cta-secondary">Let's work together</a>
+          <a href="#contact" class="cta-secondary">Have a problem to solve?</a>
         </div>
       </div>
       <div class="scroll-nudge" aria-hidden="true">
@@ -114,14 +114,14 @@
           <span>IoT &amp; Embedded Systems</span><span class="msep">&#9670;</span>
           <span>Network Engineering</span><span class="msep">&#9670;</span>
           <span>Full-Stack Development</span><span class="msep">&#9670;</span>
-          <span>Game Development</span><span class="msep">&#9670;</span>
+          <span>Automation</span><span class="msep">&#9670;</span>
           <span>AI &amp; Deep Learning</span><span class="msep">&#9670;</span>
           <span>Real-Time Communication</span><span class="msep">&#9670;</span>
           <span>Computer Vision</span><span class="msep">&#9670;</span>
           <span>IoT &amp; Embedded Systems</span><span class="msep">&#9670;</span>
           <span>Network Engineering</span><span class="msep">&#9670;</span>
           <span>Full-Stack Development</span><span class="msep">&#9670;</span>
-          <span>Game Development</span><span class="msep">&#9670;</span>
+          <span>Automation</span><span class="msep">&#9670;</span>
           <span>AI &amp; Deep Learning</span><span class="msep">&#9670;</span>
         </div>
       </div>
@@ -142,25 +142,25 @@
           <div class="fp-layout">
             <div class="fp-info">
               <div class="fp-meta">
-                <span class="fp-category">Real-Time Communication</span>
+                <span class="fp-category">Real-Time Communication Platform</span>
                 <span aria-hidden="true"> &middot; </span>
                 <span class="fp-role">Sole Developer</span>
               </div>
               <h3 class="fp-title">AirLink &mdash; <span class="fp-accent">TEG Platform</span></h3>
               <p class="fp-desc">
-                A robust communication platform for both local WLAN and the open internet.
-                Not a chat app &mdash; a full system: WebSocket messaging across 7+ channels, WebRTC peer
-                video calling, in-chat voice recording, chunked resumable file transfers, QR-code device
-                pairing, a wireless sensor network manager, and a zero-config UDP peer discovery engine.
+                The problem: devices on the same network had no easy way to communicate, share files, or stream video without configuring servers, port-forwarding, or relying on third-party services. So I built one from scratch.
+              </p>
+              <p class="fp-desc">
+                AirLink TEG is a self-hosted communication platform that works on your local network or over the internet &mdash; handling real-time messaging, peer-to-peer video calls, voice recording, resumable file transfers, IoT sensor telemetry, and automatic device discovery with no manual network configuration required.
               </p>
               <ul class="fp-list" role="list">
-                <li>Sub-millisecond LAN latency over WebSocket</li>
-                <li>WebRTC video + voice notes via Web Audio API</li>
-                <li>Resumable chunked file uploads with progress tracking</li>
-                <li>QR code instant device pairing</li>
-                <li>UDP broadcast peer discovery &mdash; zero config</li>
-                <li>WSN sensor telemetry dashboard</li>
-                <li>Cross-network relay tunnelling</li>
+                <li>Sub-millisecond LAN messaging over persistent WebSocket connections</li>
+                <li>Browser-based peer-to-peer video &amp; voice via WebRTC</li>
+                <li>Resumable chunked file uploads with real-time progress tracking</li>
+                <li>QR code device pairing &mdash; scan and connect instantly</li>
+                <li>UDP broadcast peer discovery &mdash; devices find each other automatically</li>
+                <li>Live WSN sensor telemetry from physical Arduino hardware</li>
+                <li>Cross-network relay tunnelling for internet-wide access</li>
               </ul>
               <div class="chip-row">
                 <span class="chip">Python</span>
@@ -221,12 +221,12 @@
             <div class="proj-num" aria-hidden="true">02</div>
             <div class="proj-cats"><span class="pcat">AI</span><span class="pcat">Computer Vision</span></div>
             <h3 class="proj-name">Real-Time Object Detection</h3>
-            <p class="proj-desc">Live webcam feed processed through YOLOv8 nano &mdash; annotating detected objects with bounding boxes and confidence labels at high frame rates. Memory-efficient pipeline built from scratch.</p>
+            <p class="proj-desc">A live webcam pipeline that detects and labels objects in real time. The challenge wasn't the model &mdash; it was building a pipeline that processes frames fast enough to stay useful without consuming excessive memory.</p>
             <ul class="proj-list" role="list">
-              <li>YOLOv8 deep learning inference</li>
-              <li>Live webcam stream processing</li>
-              <li>Annotated bounding boxes &amp; labels</li>
-              <li>Memory-efficient pipeline</li>
+              <li>YOLOv8 nano inference on live webcam stream</li>
+              <li>Annotated bounding boxes &amp; confidence scores per frame</li>
+              <li>Memory-managed pipeline built from scratch</li>
+              <li>Runs on a standard laptop without a GPU</li>
             </ul>
             <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">YOLOv8</span><span class="chip chip-sm">OpenCV</span></div>
             <div class="proj-accent" style="--ac:#f43f5e" aria-hidden="true"></div>
@@ -236,14 +236,14 @@
             <div class="proj-num" aria-hidden="true">03</div>
             <div class="proj-cats"><span class="pcat">IoT</span><span class="pcat">Embedded</span></div>
             <h3 class="proj-name">Wireless Sensor Network Manager</h3>
-            <p class="proj-desc">Full IoT management platform &mdash; device registration, real-time telemetry, RX/TX bandwidth metering, and hardware adapter diagnostics. Integrates with physical Arduino hardware over serial.</p>
+            <p class="proj-desc">Managing multiple IoT devices manually doesn't scale. This platform handles device registration, live telemetry, RX/TX bandwidth metering, and hardware diagnostics &mdash; connected directly to physical Arduino hardware over serial.</p>
             <ul class="proj-list" role="list">
-              <li>Device lifecycle management</li>
-              <li>Real-time throughput telemetry</li>
-              <li>Hardware adapter enumeration</li>
-              <li>Arduino serial bridge integration</li>
+              <li>Device registration &amp; lifecycle management</li>
+              <li>Real-time sensor telemetry dashboard</li>
+              <li>Bandwidth metering per device</li>
+              <li>Serial bridge to physical Arduino hardware</li>
             </ul>
-            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">Arduino</span><span class="chip chip-sm">IoT</span></div>
+            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">Arduino</span><span class="chip chip-sm">FastAPI</span><span class="chip chip-sm">WebSocket</span></div>
             <div class="proj-accent" style="--ac:#10b981" aria-hidden="true"></div>
           </article>
 
@@ -251,42 +251,59 @@
             <div class="proj-num" aria-hidden="true">04</div>
             <div class="proj-cats"><span class="pcat">Networking</span><span class="pcat">Protocol Design</span></div>
             <h3 class="proj-name">Zero-Config Peer Discovery</h3>
-            <p class="proj-desc">UDP broadcast beacon system for automatic peer detection on local networks. No manual IP configuration &mdash; devices announce themselves and register in real time. Port 50555, cross-platform.</p>
+            <p class="proj-desc">On a local network, devices don't know each other's IP addresses unless someone tells them. I built a UDP broadcast beacon system that removes that problem entirely &mdash; devices announce themselves and register with any listening peer automatically.</p>
             <ul class="proj-list" role="list">
-              <li>UDP broadcast beaconing</li>
-              <li>Automatic peer registration</li>
-              <li>Zero-config plug-and-play</li>
-              <li>Cross-platform Python</li>
+              <li>UDP broadcast beaconing on port 50555</li>
+              <li>Automatic peer registration on first contact</li>
+              <li>Cross-platform, zero configuration required</li>
+              <li>Core discovery layer inside AirLink TEG</li>
             </ul>
-            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">UDP</span><span class="chip chip-sm">Networking</span></div>
+            <div class="chip-row"><span class="chip chip-sm">Python</span><span class="chip chip-sm">UDP</span><span class="chip chip-sm">Sockets</span></div>
             <div class="proj-accent" style="--ac:#8b5cf6" aria-hidden="true"></div>
           </article>
 
           <article class="proj-card reveal-up" id="project-arduino" tabindex="0">
             <div class="proj-num" aria-hidden="true">05</div>
             <div class="proj-cats"><span class="pcat">Embedded</span><span class="pcat">Hardware</span></div>
-            <h3 class="proj-name">Arduino Embedded Systems</h3>
-            <p class="proj-desc">Custom microcontroller firmware for sensor acquisition, actuator control, and serial bridges to cloud systems. The hardware layer underneath the full GAVIH network stack.</p>
+            <h3 class="proj-name">Arduino Embedded Firmware</h3>
+            <p class="proj-desc">The hardware layer underneath everything else. Custom C/C++ firmware that reads sensors, controls actuators, and bridges the physical world to backend software over serial &mdash; the foundation the rest of the GAVIH stack is built on.</p>
             <ul class="proj-list" role="list">
-              <li>Firmware in C/C++</li>
-              <li>Sensor data acquisition</li>
-              <li>Serial-to-WebSocket bridging</li>
-              <li>Hardware-software integration</li>
+              <li>Sensor data acquisition (temperature, humidity, RSSI)</li>
+              <li>Actuator control via firmware logic</li>
+              <li>Serial-to-WebSocket bridging to Python backend</li>
+              <li>Designed for integration with larger network systems</li>
             </ul>
-            <div class="chip-row"><span class="chip chip-sm">Arduino</span><span class="chip chip-sm">C/C++</span><span class="chip chip-sm">Serial</span></div>
+            <div class="chip-row"><span class="chip chip-sm">Arduino</span><span class="chip chip-sm">C/C++</span><span class="chip chip-sm">Serial/UART</span></div>
             <div class="proj-accent" style="--ac:#f59e0b" aria-hidden="true"></div>
           </article>
 
-          <article class="proj-card reveal-up" id="project-games" tabindex="0">
+          <article class="proj-card reveal-up" id="project-forex" tabindex="0">
             <div class="proj-num" aria-hidden="true">06</div>
-            <div class="proj-cats"><span class="pcat">Web</span><span class="pcat">Game Dev</span></div>
-            <h3 class="proj-name">Interactive Gaming Experiences</h3>
-            <p class="proj-desc">Browser-based games on HTML5 Canvas &mdash; physics engines, collision systems, sprite animation, and real-time input handling. No frameworks. Engineering that's fun to use.</p>
+            <div class="proj-cats"><span class="pcat">Automation</span><span class="pcat">Backend Systems</span></div>
+            <h3 class="proj-name">GAVI &mdash; Forex Signal &amp; Risk Engine</h3>
+            <p class="proj-desc">A full-stack automated Forex analysis system with a deterministic Risk Engine built as an independent safety layer. The engine processes market data, generates signals, and enforces configurable circuit breakers &mdash; completely separate from the signal logic so neither can override the other.</p>
             <ul class="proj-list" role="list">
-              <li>Custom Canvas render loops</li>
-              <li>Physics simulation from scratch</li>
-              <li>Keyboard &amp; touch input</li>
-              <li>Cross-platform browser play</li>
+              <li>Independent Risk Engine: daily loss limits, consecutive loss circuit breakers, position caps</li>
+              <li>Three operating modes: Manual, Assisted, and Autonomous</li>
+              <li>Pre-trade risk evaluation before any position is considered</li>
+              <li>Conversational analysis engine explains every decision in plain language</li>
+              <li>Emergency pause &amp; close-all controls for capital protection</li>
+              <li>Full dashboard: trade history, telemetry, settings</li>
+            </ul>
+            <div class="chip-row"><span class="chip chip-sm">PHP</span><span class="chip chip-sm">MySQL</span><span class="chip chip-sm">JavaScript</span><span class="chip chip-sm">REST API</span></div>
+            <div class="proj-accent" style="--ac:#06b6d4" aria-hidden="true"></div>
+          </article>
+
+          <article class="proj-card reveal-up" id="project-games" tabindex="0">
+            <div class="proj-num" aria-hidden="true">07</div>
+            <div class="proj-cats"><span class="pcat">Web</span><span class="pcat">Game Dev</span></div>
+            <h3 class="proj-name">Browser-Based Game Engines</h3>
+            <p class="proj-desc">Browser games built on HTML5 Canvas without frameworks &mdash; custom physics, collision detection, sprite animation, and game loops written from scratch. The goal was to understand what a game engine actually does by building one.</p>
+            <ul class="proj-list" role="list">
+              <li>Custom render loops on HTML5 Canvas</li>
+              <li>Physics simulation &amp; collision detection from scratch</li>
+              <li>Keyboard &amp; touch input handling</li>
+              <li>Playable in any modern browser, no installs</li>
             </ul>
             <div class="chip-row"><span class="chip chip-sm">JavaScript</span><span class="chip chip-sm">Canvas API</span><span class="chip chip-sm">HTML/CSS</span></div>
             <div class="proj-accent" style="--ac:#ec4899" aria-hidden="true"></div>
@@ -302,23 +319,22 @@
           <div class="about-left reveal-up">
             <span class="section-tag">About</span>
             <h2 class="section-title" id="about-heading">
-              I'm a systems builder<br/>who builds for<br/>the real world.
+              I build systems<br/>from the idea<br/>to the thing that works.
             </h2>
           </div>
           <div class="about-right reveal-up" style="--delay:0.1s">
             <div class="about-text">
-              <p>I’m Tendai Ernest — a systems builder creating technology that works in the real world.</p>
-              <p>I’m the founder of GAVIH Integrated Systems, where I design, build, and ship real engineering projects — from connected devices and embedded systems to intelligent software and interactive applications.</p>
-              <p>My work spans the full stack: low-level C firmware running on hardware, Python and FastAPI backends, real-time communication with WebRTC and WebSockets, computer vision, IoT, networking, and the interfaces people actually use.</p>
-              <p>What drives me is not technology for its own sake. It’s the moment an idea becomes a working system — when devices connect, software responds, data moves, and something that once existed only as an idea becomes real.</p>
-              <p>I’m continuously deepening my expertise in AI integration, distributed systems, and developer-focused tools, while building practical technology that solves meaningful problems.</p>
-              <p>I build systems from the hardware up — and I’m always looking for the next problem worth solving.</p>
+              <p>I'm Tendai Ernest &mdash; founder of GAVIH Integrated Systems and the person who builds what needs to be built.</p>
+              <p>My work covers the full distance from hardware to software: C firmware running on microcontrollers, Python backends handling real-time connections, computer vision pipelines, IoT sensor networks, automated systems, and the interfaces people actually interact with.</p>
+              <p>What drives me is a specific moment &mdash; the moment an idea becomes a working system. When a device connects to the network for the first time, when the detection model draws its first accurate bounding box, when a signal engine fires and the logic holds. That moment is what I'm building toward every time.</p>
+              <p>I don't start with a preferred technology and fit the problem to it. I start with the problem, figure out what it actually requires, and build accordingly. Sometimes that means writing firmware in C. Sometimes it means designing a communication protocol from scratch. Sometimes it means building an independent risk engine so a system can't hurt the person using it.</p>
+              <p>If you have a technical problem you're not sure how to approach &mdash; that's exactly the kind of problem I want to talk about.</p>
             </div>
             <div class="about-markers">
-              <div class="marker"><span class="marker-icon" aria-hidden="true">&#9889;</span><div><strong>Purpose-driven builds</strong><p>Every project started because a real problem existed.</p></div></div>
-              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128279;</span><div><strong>Full-stack depth</strong><p>Hardware to cloud &mdash; I understand every layer.</p></div></div>
-              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128269;</span><div><strong>First-principles approach</strong><p>I understand the problem before writing a line.</p></div></div>
-              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128296;</span><div><strong>Always learning</strong><p>Exploring AI agents and distributed systems.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#9889;</span><div><strong>Problem-first thinking</strong><p>Every project started because something didn't exist and needed to.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128279;</span><div><strong>Hardware to cloud</strong><p>I understand every layer &mdash; and how they talk to each other.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128269;</span><div><strong>Understand before building</strong><p>I read the problem before writing a single line of code.</p></div></div>
+              <div class="marker"><span class="marker-icon" aria-hidden="true">&#128296;</span><div><strong>Always building</strong><p>Deepening work in AI integration, distributed systems, and automation.</p></div></div>
             </div>
           </div>
         </div>
@@ -332,7 +348,7 @@
           <h2 class="section-title" id="cap-heading">What I work with</h2>
         </header>
         <div class="cap-grid">
-          <div class="cap-cluster reveal-up"><div class="cap-head"><span class="cap-verb">BUILD</span><span class="cap-desc">Full-stack apps &amp; systems</span></div><div class="cap-tags"><span class="ctag">Python</span><span class="ctag">FastAPI</span><span class="ctag">JavaScript</span><span class="ctag">React</span><span class="ctag">HTML</span><span class="ctag">CSS</span><span class="ctag">SQLite</span></div></div>
+          <div class="cap-cluster reveal-up"><div class="cap-head"><span class="cap-verb">BUILD</span><span class="cap-desc">Full-stack apps &amp; systems</span></div><div class="cap-tags"><span class="ctag">Python</span><span class="ctag">FastAPI</span><span class="ctag">PHP</span><span class="ctag">JavaScript</span><span class="ctag">React</span><span class="ctag">HTML</span><span class="ctag">CSS</span><span class="ctag">SQLite</span><span class="ctag">MySQL</span></div></div>
           <div class="cap-cluster reveal-up" style="--delay:0.1s"><div class="cap-head"><span class="cap-verb">CONNECT</span><span class="cap-desc">Networks, protocols &amp; real-time</span></div><div class="cap-tags"><span class="ctag">WebSocket</span><span class="ctag">WebRTC</span><span class="ctag">UDP Broadcast</span><span class="ctag">Serial / UART</span><span class="ctag">REST APIs</span></div></div>
           <div class="cap-cluster reveal-up" style="--delay:0.2s"><div class="cap-head"><span class="cap-verb">SENSE</span><span class="cap-desc">Computer vision &amp; AI</span></div><div class="cap-tags"><span class="ctag">YOLOv8</span><span class="ctag">OpenCV</span><span class="ctag">Deep Learning</span><span class="ctag">Image Processing</span></div></div>
           <div class="cap-cluster reveal-up" style="--delay:0.3s"><div class="cap-head"><span class="cap-verb">EMBED</span><span class="cap-desc">Hardware firmware &amp; IoT</span></div><div class="cap-tags"><span class="ctag">Arduino</span><span class="ctag">C / C++</span><span class="ctag">IoT Sensors</span><span class="ctag">Embedded Firmware</span></div></div>
@@ -349,12 +365,12 @@
           <h2 class="section-title" id="srv-heading">What I can build for you</h2>
         </header>
         <div class="srv-grid">
-          <div class="srv-item reveal-up"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M8 9l4-4 4 4m0 6l-4 4-4-4"/><path d="M3 12h18"/></svg></div><h3>Real-Time Systems</h3><p>WebSocket platforms, chat apps, live dashboards. Built to handle concurrent connections at scale.</p></div>
-          <div class="srv-item reveal-up" style="--delay:0.1s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></div><h3>AI &amp; Computer Vision</h3><p>Object detection, image classification, live video analysis. I build the full pipeline &mdash; not just the model.</p></div>
-          <div class="srv-item reveal-up" style="--delay:0.2s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3>IoT &amp; Embedded</h3><p>Arduino firmware, sensor networks, telemetry dashboards. Hardware that connects to the world.</p></div>
-          <div class="srv-item reveal-up" style="--delay:0.3s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Full-Stack Web Apps</h3><p>FastAPI backends, JS frontends, responsive UI. From API architecture to the pixel the user sees.</p></div>
-          <div class="srv-item reveal-up" style="--delay:0.4s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div><h3>Network Engineering</h3><p>Peer discovery, UDP beaconing, relay systems, cross-network tunnelling. I build the plumbing.</p></div>
-          <div class="srv-item reveal-up" style="--delay:0.5s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div><h3>Interactive Experiences</h3><p>Browser games, data visualisations, animated interfaces. Engineering that's fun to use.</p></div>
+          <div class="srv-item reveal-up"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M8 9l4-4 4 4m0 6l-4 4-4-4"/><path d="M3 12h18"/></svg></div><h3>Real-Time Systems</h3><p>WebSocket platforms, live dashboards, communication tools. Built to handle concurrent connections and keep working under pressure.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.1s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></div><h3>AI &amp; Computer Vision</h3><p>Object detection, image classification, live video analysis. I build the full pipeline &mdash; data in, useful output out.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.2s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3>IoT &amp; Embedded</h3><p>Firmware, sensor networks, telemetry systems. Hardware that collects real-world data and sends it somewhere useful.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.3s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div><h3>Full-Stack Web Apps</h3><p>Backend APIs, frontend interfaces, databases. From the first endpoint to the last pixel the user sees.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.4s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M18 20V10M12 20V4M6 20v-6"/></svg></div><h3>Automation &amp; Signal Systems</h3><p>Rule-based automation engines, data processing pipelines, risk-managed execution systems. Logic that runs so you don't have to.</p></div>
+          <div class="srv-item reveal-up" style="--delay:0.5s"><div class="srv-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="26" height="26"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg></div><h3>Network Engineering</h3><p>Peer discovery, protocol design, relay tunnelling. The infrastructure that lets everything else communicate.</p></div>
         </div>
       </div>
     </section>
@@ -364,8 +380,8 @@
         <div class="contact-layout">
           <div class="contact-left reveal-up">
             <span class="section-tag">Contact</span>
-            <h2 class="contact-headline" id="contact-heading">Let's build<br/>something real.</h2>
-            <p class="contact-sub">Got a project, a problem you want solved, or just want to talk tech? I'm open to freelance work, collaborations, and interesting conversations.</p>
+            <h2 class="contact-headline" id="contact-heading">Have something<br/>worth building?</h2>
+            <p class="contact-sub">If you have a technical problem, an idea that needs engineering, or a system that doesn't exist yet &mdash; tell me about it. That's where I start. I'm open to freelance projects, collaborations, and interesting conversations.</p>
             <div class="channels">
               <a href="https://wa.me/263717045624" target="_blank" rel="noopener noreferrer" class="channel channel-wa" aria-label="Message on WhatsApp">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
@@ -390,7 +406,7 @@
               <div class="form-field"><label for="cf-name">Your name</label><input type="text" id="cf-name" name="name" placeholder="Name" autocomplete="name" required /></div>
               <div class="form-field"><label for="cf-email">Email address</label><input type="email" id="cf-email" name="email" placeholder="you@example.com" autocomplete="email" required /></div>
               <div class="form-field"><label for="cf-subject">What's this about?</label><input type="text" id="cf-subject" name="subject" placeholder="Project, collaboration, question..." required /></div>
-              <div class="form-field"><label for="cf-message">Message</label><textarea id="cf-message" name="message" rows="5" placeholder="Tell me about the project, timeline, what you need..." required></textarea></div>
+              <div class="form-field"><label for="cf-message">Tell me about it</label><textarea id="cf-message" name="message" rows="5" placeholder="Describe the problem, what you need built, or whatever's on your mind..." required></textarea></div>
               <button type="submit" class="form-submit" id="formSubmit">
                 <span class="submit-text">Send message</span>
                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M3 9h12M9 3l6 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
